@@ -1,6 +1,8 @@
 # git-bisect-demo
 
-This is a dummy repository to demo how `git bisect` works.
+This is a dummy repository to demo how `git bisect` works. The repository contains a spelling mistake (try to spot it!) that it is introduced during the writing of this README and `git bisect` will help us finding when the bug was introduced in the code base.
+
+## Description 
 
 `git bisect` is a powerful Git command that can help you finding bugs in your code. It uses a binary search to find the commit that introduced a bug in your code.
 
