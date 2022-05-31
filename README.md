@@ -19,3 +19,12 @@ $ git bisect start
 $ git bisect bad                 # Current version is bad
 $ git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
 ```
+
+Once you have specified at least one bad and one good commit, `git bisect` selects a commit in the middle of that range of history, checks it out, and outputs something similar to the following:
+
+```
+Bisecting: 675 revisions left to test after this (roughly 10 steps)
+```
+
+## References
+[Git documentation](https://git-scm.com/docs/git-bisect)
