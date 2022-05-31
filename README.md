@@ -1,2 +1,3 @@
 # git-bisect-demo
-Dummy repository to demo git bisect
+
+This is a dummy repository to demo how `git bisect` works.
